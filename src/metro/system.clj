@@ -16,7 +16,7 @@
    ;; Is it docker or local?
    ::http/host (or (System/getenv "WEB_HOST") "localhost")
    ;; Port to listen on
-   ::http/port 8080
+   ::http/port 8081
    ;; Path of public resources
    ::http/resource-path "/public"
    ;; All origins are allowed in dev mode
